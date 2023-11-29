@@ -14,6 +14,8 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
+	//public abstract void trabajar () {}
+	
 	public void trabajar () {
 		System.out.println("Realizando tareas generales");
 	}
