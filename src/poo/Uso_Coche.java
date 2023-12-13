@@ -8,9 +8,9 @@ public class Uso_Coche {
 		// Instanciar una clase
 		Coche Renault = new Coche();
 		
-		System.out.println(Renault.motor);
-		System.out.println(Renault.ruedas);
-		System.out.println(Renault.peso);
+		System.out.println(Renault.getMotor());
+		System.out.println(Renault.getRuedas());
+		System.out.println(Renault.getPeso());
 
 	}
 
